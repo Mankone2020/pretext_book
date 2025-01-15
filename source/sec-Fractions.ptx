@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-Fractions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Fractions </title>
+  <activity>
+  
+    <p>
+      divide and shade the three circles to show <m>\frac{3}{4}</m>
+    
+    </p>
+  
+  <image>
+    <shortdescription>fractions</shortdescription>
+    <latex-image>
+      \begin{tikzpicture}
+      \draw[thick](-1,0)--(1,0);
+      \draw[thick](0,1)--(0,-1);
+      \draw[very thick](0,0)circle(20pt);
+
+
+        
+      \end{tikzpicture}
+    </latex-image>
+  </image>
+    
+  </activity>
+  
+  <example>
+    <statement>
+      <p>
+        Arrange the following fractions in ascending order.
+      </p>
+      <p>
+      <m>\frac{1}{3},\frac{2}{5},\frac{3}{4},\frac{1}{2}</m>
+    </p>
+
+    </statement>
+    <solution>
+      <p>
+        (a) Find the LCM of <m>3,5,4,2.</m>
+      </p>
+      <table>
+        <title></title>
+        <tabular halign="center" right="medium" bottom="medium">
+          <row>
+            <cell>2</cell>
+            <cell>3</cell>
+            <cell>5</cell>
+            <cell>4</cell>
+            <cell>2</cell>
+          </row>
+          <row>
+            <cell>2</cell>
+            <cell>3</cell>
+            <cell>5</cell>
+            <cell>2</cell>
+            <cell>1</cell>
+          </row>
+          <row>
+            <cell>3</cell>
+            <cell>3</cell>
+            <cell>5</cell>
+            <cell>1</cell>
+            <cell>1</cell>
+          </row>
+          <row>
+            <cell>5</cell>
+            <cell>1</cell>
+            <cell>5</cell>
+            <cell>1</cell>
+            <cell>1</cell>
+          </row>
+          <row>
+            <cell>1</cell>
+            <cell>1</cell>
+            <cell>1</cell>
+            <cell>1</cell>
+            <cell>1</cell>
+          </row>
+          
+          
+        </tabular>
+      </table>
+      <p>
+        <me>
+          2 \times 2 \times 3 \times 5 = 60
+        </me>
+        
+      </p>
+      <p>
+        The LCM of <m>3,5,4</m> and <m>2</m> is <m>60.</m>
+      </p>
+      <p>
+        (b) Rewrite the fractions to have a common denominator.
+      </p>
+      <table>
+        <title></title>
+        <tabular halign="center">
+          <row>
+            <cell>
+            <m>
+              \frac{1}{3} = \frac{1 \times 20}{3 \times 20}
+            </m>
+            </cell>
+            <cell><m>\frac{2}{5} = \frac{2 \times 12}{5 \times 12}</m></cell>
+            <cell><m>\frac{3}{4} = \frac{3 \times 15}{4 \times 15}</m></cell>
+            <cell><m>\frac{1}{2} = \frac{1 \times 30}{2 \times 30}</m></cell>
+            
+          </row>
+          <row>
+            <cell><m>  = \frac{20}{60}</m></cell>
+            <cell><m>  = \frac{24}{60}</m></cell>
+            <cell><m>  = \frac{45}{60}</m></cell>
+            <cell><m>  = \frac{30}{60}</m></cell>
+            
+          </row>
+        </tabular>
+      </table>
+      <p>
+        (c) Arrange the fractions in ascending order.
+      
+      </p>
+      <p>
+        <m>\frac{20}{60},\frac{24}{60},\frac{30}{60},\frac{45}{60}</m>
+      </p>
+      <p>
+        <m>\frac{1}{3},\frac{2}{5},\frac{1}{2},\frac{3}{4}</m>
+        
+      </p>
+
+
+
+    </solution>
+    
+  </example>
+</section>

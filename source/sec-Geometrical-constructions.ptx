@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-Geometrical-constructions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Geometrical constructions</title>
+  
+ <exercise>
+  <statement>
+    <p>
+      Match correctly.
+    </p>
+
+  </statement>
+
+  <matches>
+    <match order="1">
+      <premise>one</premise>
+      <response>moja</response>
+    </match>
+     <match order="2">
+      <premise>two</premise>
+      <response>mbili</response>
+    </match>
+     <match order="3">
+      <premise>three</premise>
+      <response>tatu</response>
+    </match>
+    
+  </matches>
+
+
+ </exercise>
+</section>

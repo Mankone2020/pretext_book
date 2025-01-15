@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-Decimals" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Decimals </title>
+  <p>
+   Work out: <m>4.75 \div5 </m> 
+  </p>
+  <sidebyside>
+    <table>
+    <title></title>
+    <tabular>
+      <row>
+        <cell><m>4.75 \div 5</m></cell>
+        <cell><m>= \frac{475}{100} \div 5</m></cell>
+         
+      </row>
+       <row>
+        <cell></cell>
+        <cell><m>= \frac{475}{100} \times \frac{1}{5}</m></cell>
+        
+      </row>
+       <row>
+        <cell></cell>
+        <cell><m>= \frac{95}{100}</m></cell>
+        </row>
+
+      
+      
+      <row>
+        <cell></cell>
+        
+         <cell><m>= 0.95</m></cell>
+      </row>
+
+    </tabular>
+  </table>
+  </sidebyside>
+
+  <example>
+    <p>
+      Jesica had a string 98.6m long. She cut it into eight equal pieces. How long is each piece.
+    </p>
+
+     <table>
+    <title>long division</title>
+    <tabular>
+      <row bottom="medium">
+        <cell></cell>
+        <cell>12.325m</cell>
+      </row>
+      <row left="medium">
+        <cell>8</cell>
+        <cell>98.6</cell>
+      </row>
+    </tabular>
+  </table>
+  </example>
+ 
+  
+</section>
