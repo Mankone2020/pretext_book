@@ -1,0 +1,7 @@
+INFO    : Using PreTeXt-CLI version 2.10.0.  The latest stable version available is 2.11.0. Run `pip install pretext --upgrade` to update.
+
+INFO    : PreTeXt project found in `/home/innodems-isdora/Documents/new-pretext-project`.
+WARNING : A project already exists in `/home/innodems-isdora/Documents/new-pretext-project`.
+WARNING : Use `pretext init --refresh` to refresh initialization of an existing project
+WARNING : or `pretext init --file FILENAME` to refresh a specific file.
+INFO    : 

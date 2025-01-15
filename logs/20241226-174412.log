@@ -1,0 +1,47 @@
+INFO    : Using PreTeXt-CLI version: 2.10.0.  This is the latest available version.
+
+INFO    : PreTeXt project found in `/home/innodems-isdora/Documents/new-pretext-project`.
+INFO    : Since no target was supplied, we will use "web".
+
+INFO    : Building target web
+INFO    : converting latex-image pictures from /home/innodems-isdora/Documents/new-pretext-project/source/main.ptx to svg graphics for placement in /home/innodems-isdora/Documents/new-pretext-project/generated-assets/latex-image
+INFO    : extracting latex-image pictures from /home/innodems-isdora/Documents/new-pretext-project/source/main.ptx
+INFO    : string parameters passed to extraction stylesheet: {'publisher': '/home/innodems-isdora/Documents/new-pretext-project/publication/publication.ptx', 'subtree': 'subsec-representation-of-simple-inequalities'}
+INFO    : discovering source file's directory name: /home/innodems-isdora/Documents/new-pretext-project/source
+INFO    : verifying and expanding input directory: /home/innodems-isdora/Documents/new-pretext-project/source/../generated-assets
+INFO    : input directory expanded to absolute path: /home/innodems-isdora/Documents/new-pretext-project/generated-assets
+INFO    : verifying and expanding input directory: /home/innodems-isdora/Documents/new-pretext-project/source/../assets
+INFO    : input directory expanded to absolute path: /home/innodems-isdora/Documents/new-pretext-project/assets
+INFO    : XSL conversion of /home/innodems-isdora/Documents/new-pretext-project/source/main.ptx by /home/innodems-isdora/.ptx/2.10.0/core/xsl/extract-latex-image.xsl
+INFO    : successful application of /home/innodems-isdora/.ptx/2.10.0/core/xsl/extract-latex-image.xsl
+INFO    : converting subsec-representation-of-simple-inequalities-4.tex to subsec-representation-of-simple-inequalities-4.pdf
+INFO    : cropping subsec-representation-of-simple-inequalities-4.pdf to cropped-subsec-representation-of-simple-inequalities-4.pdf
+INFO    : renaming cropped-subsec-representation-of-simple-inequalities-4.pdf to subsec-representation-of-simple-inequalities-4.pdf
+INFO    : converting subsec-representation-of-simple-inequalities-4.pdf to subsec-representation-of-simple-inequalities-4.svg
+INFO    : Removing temporary directory /tmp/ptx-ll2h_uvi
+INFO    : Preparing to build into /home/innodems-isdora/Documents/new-pretext-project/output/web.
+INFO    : XSL conversion of /home/innodems-isdora/Documents/new-pretext-project/source/main.ptx by /home/innodems-isdora/.ptx/2.10.0/core/xsl/utilities/report-publisher-variables.xsl
+INFO    : successful application of /home/innodems-isdora/.ptx/2.10.0/core/xsl/utilities/report-publisher-variables.xsl
+INFO    : discovering source file's directory name: /home/innodems-isdora/Documents/new-pretext-project/source
+INFO    : verifying and expanding input directory: /home/innodems-isdora/Documents/new-pretext-project/source/../generated-assets
+INFO    : input directory expanded to absolute path: /home/innodems-isdora/Documents/new-pretext-project/generated-assets
+INFO    : verifying and expanding input directory: /home/innodems-isdora/Documents/new-pretext-project/source/../assets
+INFO    : input directory expanded to absolute path: /home/innodems-isdora/Documents/new-pretext-project/assets
+INFO    : Runestone Services (via PreTeXt repository): version 7.4.4
+INFO    : converting /home/innodems-isdora/Documents/new-pretext-project/source/main.ptx to HTML in /tmp/ptx-8u7owaeb
+INFO    : XSL conversion of /home/innodems-isdora/Documents/new-pretext-project/source/main.ptx by /home/innodems-isdora/.ptx/2.10.0/core/xsl/pretext-html.xsl
+INFO    : messages from the log for XSL processing:
+ERROR   : * PTX:ERROR:      The @xml:id "sec-Squares-and-squareroots.ptx" is invalid.  Use only letters, numbers, hyphens and underscores.
+ERROR   : * PTX:ERROR:      The @xml:id "ch-Data-handling-probability.ptx" is invalid.  Use only letters, numbers, hyphens and underscores.
+INFO    : successful application of /home/innodems-isdora/.ptx/2.10.0/core/xsl/pretext-html.xsl
+INFO    : Removing temporary directory /tmp/ptx-_r5nas00
+INFO    : Removing temporary directory /tmp/ptx-8u7owaeb
+INFO    : 
+Success! Run `pretext view` to see the results.
+
+INFO    : 
+----------------------------------------------------
+INFO    : While running pretext, the following errors occurred:
+
+INFO    : (see log messages above or in the 'logs' folder for more information)
+INFO    : ----------------------------------------------------
