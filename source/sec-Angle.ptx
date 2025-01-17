@@ -758,6 +758,7 @@
             <subsubsection xml:id="subsubsec-Triangle">
 
                 <activity>
+
                     <statement>
                         <p>
                                     What you need: A ruler and a protractor.
@@ -782,7 +783,9 @@
                         <p>
                             2.Cut angles <m>a</m>, <m>b</m>, <m>c</m> and make a straight line as shown below.
                         </p>
+
                     </statement>
+                    
                 </activity>
 
             </subsubsection>
