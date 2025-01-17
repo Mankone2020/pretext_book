@@ -2,31 +2,277 @@
 
 <section xml:id="sec-Geometrical-constructions" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Geometrical constructions</title>
-  
- <exercise>
-  <statement>
-    <p>
-      Match correctly.
-    </p>
+      <subsection xml:id="subsec-Measuring-angles">
+        <title>Measuring angles</title>
+        <activity>
+            <statement>
+                <p>
+                    Work in pairs
+                </p>
 
-  </statement>
+                <p>
+                    What you need:A protractor and a ruler.
+                </p>
 
-  <matches>
-    <match order="1">
-      <premise>one</premise>
-      <response>moja</response>
-    </match>
-     <match order="2">
-      <premise>two</premise>
-      <response>mbili</response>
-    </match>
-     <match order="3">
-      <premise>three</premise>
-      <response>tatu</response>
-    </match>
-    
-  </matches>
+                <p>
+                    Explore
+                </p>
 
+                <p>
+                    <ol>
+                        <li>
+                            <p>
+                                (a) Individually, draw different types of angles.
+                            </p>
+                            <p>
+                                (b) Measure the angles using a protractor.
+                            </p>
+                        </li>
 
- </exercise>
+                        <li>
+                            <p>
+                                compare the angles you have drawn with those of your friend.
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                Discuss how you would measure the angle shown below.
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+                <image>
+                    <latex-image width="20">
+                        \begin{tikzpicture}
+                        \usetikzlibrary{quotes,angles}
+                        \draw(-3,1)coordinate(A)--(0,0)coordinate(B)--(-3,-1)coordinate(C); 
+                        <!-- \node at (-3.1,1.2){A};
+                        \node at (0.2,0){B};
+                        \node at (-3.1,-1.2){C};  -->
+                        \pic[draw,-&gt;,black, angle radius=0.5cm] {angle=C--B--A};
+                        \end{tikzpicture}
+                    </latex-image>    
+                </image>
+                <p>
+                    Connect
+                </p>
+
+                <p>
+                    Angles can be of different types depending on their sizes.
+                </p>
+            </statement>
+        </activity>
+    </subsection>
+    <subsection xml:id="subsec-Bisecting-angles">
+        <title>Bisecting angles</title>
+            <activity>
+                <p>
+                    What you need: A ruler, a pair of compasses and a protractor.
+                </p>
+
+                <p>
+                    Explore
+                </p>
+                <sidebyside>
+                    <p>
+                                1.Draw angle ABC of any size. With point B as the centre and
+                                using a suitable radius, make arcs on line AB and BC as shown
+                                on the right. Label the points where the arcs meet lines AB and BC
+                                as M and N respectively.
+                    </p>
+                    
+                    <image source="//a1.png" width="40%">
+                        <shortdescription>explanetion</shortdescription>
+                    </image>
+                </sidebyside>
+                <sidebyside>
+                    <p>
+                        2.Using the same radius and with the points M and N as the centres, make arcs inside angle ABC to meet at point P as shown on the right.
+                    </p>
+                    <image source="/a2.png" width="50%">
+                        <shortdescription></shortdescription>
+                    </image>
+                </sidebyside>
+
+                <sidebyside>
+                    <p>
+                    3.Using a ruler, join B  to P as shown below.
+                </p>
+                </sidebyside>
+                <image source="/a3.png" width="40%">
+                    <shortdescription></shortdescription>
+                </image>
+
+                <p>
+                    4.Measure angle ABP and PBC. What do you notice?
+                </p>
+
+                <p>
+                    Connect.
+                </p>
+
+                <p>
+                    The line that bisects an angle is called an angle bisector.
+                </p>
+            </activity>
+        <exercise>
+            <statement>
+                <p>
+                Exercise. 
+                </p>
+            </statement>
+        </exercise>
+    </subsection>
+    <subsection xml:id="subsec-Constucting-angle-90">
+        <title>Constucting <m>90^\circ</m></title>
+        <activity>
+            <statement>
+                <p>
+                    Work in pairs.
+                </p>
+
+                <p>
+                    What you need: A ruler, a protractor and a pair of compasses.
+                </p>
+
+                <p>
+                    1.Draw a straight line and mark on it point <m>O</m>. With point <m>O</m> as the centre, make arcs to cut the line at <m>A</m> and <m>B</m> as shown below.
+                </p>
+                    <image source="/l1.png" width="40%">
+                        <shortdescription></shortdescription>
+                    </image>
+
+                <p>
+                   2. Using <m>A</m> and <m>B</m> as the centres, make arcs abave the line to meet at point <m>C</m> as shown below.
+                </p>
+
+                    <image source="/l2.png" width="40%">
+                        <shortdescription></shortdescription>
+                    </image>
+
+                <p>
+                  3.Join points <m>O</m> to <m>C</m> as shown below.measure angle <m>BOC</m> and <m>COA</m>. Which angles have you constructed?  
+                </p>
+
+                    <image source="/l3.png" width="40%">
+                        <shortdescription></shortdescription>
+                    </image>
+
+                <p>
+                    Expected observations
+                </p>
+
+                <p>
+                    <me>\angle BOC = \angle COA = 90^\circ</me>
+                </p>
+            </statement>
+        </activity>
+    </subsection>
+    <subsection xml:id="subsec-Constructing-angle-60">
+        <title>Constructing <m>60^\circ</m></title>
+            <activity>
+                <statement>
+                    <p>
+                        Work in pairs
+                    </p>
+
+                    <p>
+                        What you need: A ruler, a protractor and a pair of compasses.
+                    </p>
+
+                    <p>
+                        Explore
+                    </p>
+
+                    <p>
+                        1.Draw a straight line and mark a point <m>O</m> on it as shown below.
+                    </p>
+
+                    <image source="/l4.png" width="40%">
+                        <shortdescription></shortdescription>
+                    </image>
+
+                    <p>
+                    2. With <m>O</m> as center draw an arc of any radius to cut the line at <m>A</m>.With the same radius and <m>A</m> as center draw an arc to cut the previous arc at <m>B</m>.
+                    </p>
+
+                    <image source="/l5.png" width="40%">
+                        <shortdescription></shortdescription>
+                    </image>
+
+                    <p>
+                    3. Join <m>OB</m>. Measure angle <m>AOB</m>. Which angle have you constructed?
+                    </p>
+
+                    <image source="/l6.png" width="40%">
+                        <shortdescription></shortdescription>
+                    </image>
+
+                    <p>
+                    Expected observation.
+                    </p>
+
+                    <p>
+                        We get the required angle 
+                    </p>
+
+                    <p>
+                        <me>\angle AOB = 60^\circ</me>
+                    </p>
+                </statement>
+            </activity> 
+    </subsection>
+
+    <subsection xml:id="subsec-Constructing-angle-30">
+        <title>Constructing <m>30^\circ</m></title>
+        <activity>
+            <statement>
+                <p>
+                    Work in pairs
+                </p>
+
+                <p>
+                    What you need: A ruler, a protractor and a pair of compasses.
+                </p>
+
+                <p>
+                    Explore.
+                </p>
+
+                <p>
+                    1.Construct <m>60^\circ</m> (as shown in the above activity).
+                </p>
+
+                <image source="/l6.png" width="40%">
+                    <shortdescription></shortdescription>
+                </image>
+
+                <p>
+                    2.With <m>A</m> as center, draw an arc of radius more than half of <m>AB</m> in the interior of <m>\angle AOB</m>. With the same radius and with <m>B</m> as center draw an arc to cut the previous one at <m>C</m>.
+                </p>
+
+                <p>
+                    3.Join OC. Measure <m>\angle AOC</m>.
+                </p>
+
+                <image source="/l7.png" width="40%">
+                    <shortdescription></shortdescription>
+                </image>
+
+                <p>
+                Expected observation.
+                </p>
+
+                <p>
+                    We get the required angle 
+                </p>
+
+                <p>
+                    <me>\angle AOC = 30^\circ</me>
+                </p>
+            </statement>
+        </activity>
+        
+    </subsection>
 </section>

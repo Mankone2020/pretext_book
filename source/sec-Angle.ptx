@@ -631,7 +631,7 @@
         <subsection xml:id="Angle-properties-of-polygons">
             <title>Angle properties of polygons.</title>
 
-                    <activity>
+                     <activity>
                         <statement>
                             <p>
                                 What you need: A ruler and a protractor.
@@ -649,8 +649,9 @@
 
                                 <image>
                                     <latex-image>
+                                     \usetikzlibrary{quotes,angles}
                                         \begin{tikzpicture}
-                                        \draw(3,5) coordinate (A)-- (0,0) coordinate (B)-- (6,0) coordinate (C)--(3,5)coordinate(A);  
+                                        \draw[green,thick](3,5) coordinate (A)-- (0,0) coordinate (B)-- (6,0) coordinate (C)--(3,5)coordinate(A);  
                                         \end{tikzpicture}
                                     </latex-image>
                                 </image>
@@ -658,7 +659,7 @@
                                 <image>
                                     <latex-image>
                                         \begin{tikzpicture}
-                                            \draw(0,0) coordinate (A)-- (6,0) coordinate (B)-- (6,4) coordinate (C)--(0,4)coordinate(D)--(0,0)coordinate(A);
+                                            \draw[blue,thick](0,0) coordinate (A)-- (6,0) coordinate (B)-- (6,4) coordinate (C)--(0,4)coordinate(D)--(0,0)coordinate(A);
                                         \end{tikzpicture}
                                     </latex-image>
                                 </image>
@@ -666,7 +667,7 @@
                                 <image>
                                     <latex-image>
                                         \begin{tikzpicture}
-                                        \draw(-2,0) coordinate (A)-- (2,0) coordinate (B)-- (4,2) coordinate (C)--(0,4)coordinate(D)--(-4,2)coordinate(E)--(-2,0) coordinate(A);  
+                                        \draw[green,thick](-2,0) coordinate (A)-- (2,0) coordinate (B)-- (4,2) coordinate (C)--(0,4)coordinate(D)--(-4,2)coordinate(E)--(-2,0) coordinate(A);  
                                         \end{tikzpicture}
                                     </latex-image>
                                 </image>
@@ -674,7 +675,7 @@
                                 <image>
                                     <latex-image>
                                         \begin{tikzpicture}
-                                            \draw(-2,0) coordinate (A)-- (2,0) coordinate (B)-- (4,2) coordinate (C)--(2,4)coordinate(D)--(-2,4)coordinate(E)--(-4,2) coordinate(F)--(-2,0) coordinate(A);
+                                            \draw[green,thick](-2,0) coordinate (A)-- (2,0) coordinate (B)-- (4,2) coordinate (C)--(2,4)coordinate(D)--(-2,4)coordinate(E)--(-4,2) coordinate(F)--(-2,0) coordinate(A);
                                         \end{tikzpicture}
                                     </latex-image>
                                 </image>
@@ -1355,4 +1356,167 @@
                 </activity>
             </subsubsection>
         </subsection>
+     <subsection xml:id="subsec-Solving-angles-of-polygons">
+        <title>Solving angles of polygons</title>
+            <activity>
+                <statement>
+                    <p>
+                        What you need: Cuts-outs of polygons, a ruler and a protractor.
+                    </p>
+
+                    <p>
+                    1. (a) Measure the interior angles of each polygon.   
+                    </p>
+
+                    <p>
+                        (b) Work out the sum of the interior angles of each polygon.
+                    </p>
+
+                    <p>
+                        2.(a) What is the sum of the exterior angles of each polygon?
+                    </p>
+
+                    <p>
+                        (b) Work out the value of one exterior angle of each polygon using the formula, 
+                                        <me>\frac{360^\circ}{n}.</me>
+                    </p>
+
+                    <p>
+                        3. Add each exterior angle to its corresponding interior angle. What do you notice?
+                    </p>
+
+                    <p>
+                        Connect.
+                    </p>
+
+
+                            <p>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            If a polygon has n sides, the number of triangles is <m>n-2</m>.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            The sum of the interior angles in a polygon = number of triangles <m>\times 180^\circ</m>                                                                
+                                        </p>
+
+                                        <p>
+                                            <me>180^\circ\times (n-2) </me>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            To get the size of one interior angle in a regular polygon, divide the sum of the interior angles by the number of sides.
+                                        </p>
+                                        <p>
+                                            <me>\frac{90^\circ\times (2n-4)}{n}=\frac{180^\circ\times (n-2)}{n} </me>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Size of exterior angle <m>=\frac{360^\circ}{n}</m>.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Exterior angle + its corresponding interior angle <m>=180^\circ.</m>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </p>
+                </statement>
+            </activity>
+        <example>
+            <statement>
+                <p>
+                    A regular polygon has six sides.determine:
+                </p>
+                <tabular>
+                    <row>
+                        <cell>(a) The size of each interior angle </cell>
+                        <cell> (b) The size of each exterior angle.</cell>
+                    </row>
+                </tabular>
+                
+            </statement>
+         <solution>
+            <p>
+                (a) sum of interior angles is <me>
+                    (2n-4)\times 90^\circ=(2 \times 6-4)\times 90^\circ  </me>   
+            </p>
+
+            <p>
+                <me>=(12-4)\times 90^\circ    </me>
+           </p>
+
+           <p>
+                <me>
+                   = 8 \times 90^\circ
+                </me>
+           </p>
+
+           <p>
+                <me>
+                 =720^\circ   
+                </me>  
+           </p>
+
+           <p>
+            size of each interior angle <me>
+               = \frac{720^\circ}{6}  </me> 
+           </p>
+
+           <p>
+                <me>
+                   = 120^\circ
+                </me>
+          </p>
+
+          <p>
+            (b).Size of each exterior angle is <me>
+               = \frac{360^\circ}{n}=\frac{360}{6}
+            </me> 
+          </p>
+
+          <p>
+                <me>
+                   = 60^\circ
+                </me>
+            
+          </p>
+
+         </solution>
+        </example>
+        <example>
+            <statement>
+                <p>
+                    The sum of the interior angles of a regular polygon is <m>540^\circ.</m> Deterimine the number of sides of the polygon.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <m>(2n-4) \times 90^\circ = 540^\circ</m>
+                </p>
+
+                <p>
+                    <m>180n-360^\circ=540^\circ</m>
+                </p>
+
+                <p>
+                    <m>180n-360^\circ+360^\circ=540^\circ+360^\circ</m>
+                </p>
+
+                <p>
+                    <me>180n=900^\circ</me>
+                </p>
+
+                <p>
+                    <me>n=5</me>
+                </p>
+            </solution>
+        </example>
+
+    </subsection>
 </section>
