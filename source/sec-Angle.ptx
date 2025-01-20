@@ -3,6 +3,87 @@
 <section xml:id="sec-section-Angles" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Angles</title>
 
+        <subsection xml:id="subsec-Introduction">
+        <title>Introduction</title>
+        
+    
+
+    
+            <definition xml:id="def-definition-of-an-angle">
+            <idx><h>Angle</h></idx>
+                <statement>
+                    <p>
+                        The word angle comes from the latin word <em>angulus</em>, meaning <q>corner</q>. An angle is represented by the symbol <m>\angle.</m> 
+                    </p>
+
+                    <p>
+                        Angles are formed when two lines intersect at point (also known as <em>vertex </em>). In geometry, an angle is formed when two rays are joined at their endpoints. Rays are also known as sides or arms of the angle.
+                    </p>
+
+                    <p>
+                        Observe the diagram below.
+                    </p>
+
+                    <image>
+                        <shortdescription>angles</shortdescription>
+                        <latex-image>
+                            \begin{tikzpicture}
+                                \draw[blue](0:0cm) node[left]{$O$} -- (0:3cm) node[right]{$A$};
+                                \draw[blue](60:0cm) -- (60:3cm) node[right]{$B$};
+                                \draw[fill=red] (0,0) -- (0:.65) arc (0:60:.65);
+                                    \draw(30:0.9cm) node {$x$};
+                                    \draw[fill=black](60:2.9cm) circle(1pt);
+                                    \draw[fill=black](0:0cm) circle(1pt);
+                                    \draw[fill=black](0:2.9cm) circle(1pt);
+                            \end{tikzpicture}
+                        </latex-image>
+                    </image>
+                    
+                    <p>
+                        lIne <m>OA</m> and <m>OB</m> intersect at point <m>O</m> to form <m>\angle</m> <m> x </m>, shaded in red.
+                    </p>
+
+                    <p>
+                        <em>Why angles?</em>
+                    </p>
+
+                    <p>
+                        Engineers use angles to design buildings, bridges, roads and stadia because they are an important factor in ensuring stability of buildings. Any inaccuracy may lead to unfortunate incidents like damages and collapse of buildings. Carpenters  also use angles to make furnitutre.
+                    </p>
+
+
+                </statement>
+
+            </definition>
+
+
+            <exercise label="angle-definition">
+                         <title>True/False</title>
+                         <idx>definition of angles</idx>
+                            <statement correct="yes">
+                               <p>
+                                   Angles are formed when two rays intersect at a vertex. The opening between the two rays is called an angle, represented by a symbol <m>\angle .</m>
+                               </p>
+                            </statement>
+
+                            
+
+                            <feedback>
+                               
+                                  <p>
+                                   An angle is described as a 'opening' formed by two rays/lines meeting at a vertex.
+                                  </p>
+                                
+                            </feedback>
+                            <hint>
+                               <p>
+                                   Refer to the definition in the introduction section , <xref ref="def-definition-of-an-angle"/>.
+                                </p>
+                            </hint>
+                            
+                    </exercise>
+        </subsection>
+
         <subsection xml:id="subsec-Angles-in-a-straightline">
             <title>Angles in a straight line</title>
                 <activity>
@@ -74,213 +155,138 @@
                                                     \end{tikzpicture}
                                                 </latex-image>
                                             </image>
-                        </statement>
+                            </statement>
                                 
                                 <hint>
-                                    <p>
-                                                1.Trace and cut out the fugure below.     
+                                        <p>
+                                            1.Trace and cut out the fugure below.     
                                         </p>
-                                    <p>
-                                                        2.Use a protractor to measure the following angles:
+                                        <p>
+                                            2.Use a protractor to measure the following angles:
                                         </p>
-                                    <p>
-                                                        (a).  Angle <m>a</m>               
+                                         <p>
+                                            (a).  Angle <m>a</m>               
                                         </p>
-                                <p>
-                                                        (b).  Angle <m>b</m> 
+                                        <p>
+                                            (b).  Angle <m>b</m> 
                                         </p>
-                                <p>
-                                                        (c).   Angle <m>c</m> 
-                                            </p>
-                                <p>
-                                                        (d).   Angle <m>d</m> 
-                                            </p>
-                                <p>
-                                                        3.Which angles are equal?
-                                            </p>
-                                <p>
-                                                        4.Find the sum of angles <m>a</m> , <m>b</m> , <m>c</m> and <m>d</m> 
+                                        <p>
+                                            (c).   Angle <m>c</m> 
                                         </p>
-                                <p>
-                                                    5. What is their sum?
+                                         <p>
+                                            (d).   Angle <m>d</m> 
                                         </p>
-                                <p>
-                                                    6. Share your work with other learners in class.
+                                        <p>
+                                            3.Which angles are equal?
                                         </p>
-                            <p>
-                                                    Learning point
+                                        <p>
+                                            4.Find the sum of angles <m>a</m> , <m>b</m> , <m>c</m> and <m>d</m> 
                                         </p>
-                                <p>
-                                                    Angle <m>a</m>  is vertically opposite to angle <m>c</m> .
+                                        <p>
+                                            5. What is their sum?
                                         </p>
-                                <p>
-                                                    Angle <m>b</m>  is vertically opposite to angle <m>d</m>.
+                                        <p>
+                                            6. Share your work with other learners in class.
                                         </p>
-                                <p>
-                                                    Vertically opposite angles are equal.
+                                        <p>
+                                            <em>Learning point</em>
                                         </p>
-                                <p>
-                                                    Angle <m>a</m> =Angle <m>c</m> 
+                                        <p>
+                                            Angle <m>a</m>  is vertically opposite to angle <m>c</m> .
                                         </p>
-                            <p>
-                                                    Angle <m>b</m> =Angle <m>d</m> 
+                                        <p>
+                                            Angle <m>b</m>  is vertically opposite to angle <m>d</m>.
+                                        </p>
+                                        <p>
+                                            Vertically opposite angles are equal.
+                                        </p>
+                                        <p>
+                                            Angle <m>a</m> =Angle <m>c</m> 
+                                        </p>
+                                        <p>
+                                            Angle <m>b</m> =Angle <m>d</m> 
                                         </p>
                                 </hint>  
                     </activity>
 
+                    
                     <example>
-
-                        <statement> 
-                                <p>
-                                Find the value of angle marked m.
-                                    </p>
-                        
-                                            <image width ="50%">
-                                            <shortdescription>Find the value of angle marked m.</shortdescription>
-                                            <latex-image>
-                                                \begin{tikzpicture}
-                                                \usetikzlibrary{quotes,angles}
-                                                    \draw(-3,0) coordinate (f)--(3,0)coordinate (g);
-                                                    \draw(-3,-2) coordinate (a)--(3,2)coordinate(b);
-                                                    \draw(3,-2)coordinate(c)--(-3,2)coordinate(d);
-                                                    \node at(-3.5,-2) {a};
-                                                    \node at(-3.5,2){d};
-                                                    \node at (3.5,-2){c};
-                                                    \node at (3.5,2){b};
-                                                    \node at (0,0.5){g};
-                                                    \node at (-3.2,0){e};
-                                                    \node at (3.2,0){f};
-                                            
-                                                \end{tikzpicture}
-                                            </latex-image>
-                                            </image>
-                        </statement>
-                            <solution>
-                                <p>
-                            Vertically opposite angles at a point are equal.     
-                                </p>
-                                <p>
-                                    Angles at a point add upto 360
-                                </p>
-                                <p>
-                                    Therefore;
-                                </p>
-                                <p>
-                                    m+m+40+40+60+60=360
-                                </p>
-                                <p>
-                                    2m+200=360
-                                </p>
-                                <p>
-                                    2m=360-200
-                                </p>
-                                <p>
-                                    2m=160
-                                </p>
-                                <p>
-                                    m=160/2
-                                </p>
-                                <p>
-                                    m=80
-                                </p>
-                            </solution>
-                    </example>
-
-                    <example>
-
+                      <statement>
                         <p>
-                            Work out the value of the angle marked <m>x</m>  in the figure alongside
+                             Work out the value of the angle marked <m>x</m>  in the figure 
                         </p>
 
                         <image>
-                            <shortdescription>Agles at a point</shortdescription>
+                            <shortdescription></shortdescription>
                             <latex-image>
-                        
                                 \begin{tikzpicture}
                                     \draw(105:-2cm) -- (105:3cm);
                                     \draw(-3,-2) -- (3,2);
                                     \draw(160:0) -- (160:3cm);
-                                    \draw[fill=white] (0,0) -- (34:.75) arc (34:105:.75);
+                                    \draw(0,0) -- (34:.55) arc (34:105:.55);
                                     \draw(68:0.9cm) node {$x$};
-                                    \draw[fill=white] (0,0) --(105:.85) arc (105:160:.85);
+                                    \draw(0,0) --(105:.45) arc (105:160:.45);
                                     \draw(120:0.9cm) node {$45^\circ$};
-                                    \draw[fill=white] (0,0) -- (160:.75) arc (160:214:.75);
+                                    \draw(0,0) -- (160:.5) arc (160:214:.5);
                                     \draw(195:0.9cm) node{$70^\circ$};
-                                    \draw[fill=white] (0,0) -- (214:.65) arc (214:285:.65);
+                                    \draw(0,0) -- (214:.65) arc (214:285:.65);
                                     \draw(250:.9cm) node {$60^\circ$};
-                                    \draw[fill=white] (0,0) -- (285:.45) arc (285:394:.45);
+                                    \draw(0,0) -- (285:.45) arc (285:394:.45);
                                     \draw(350:.9cm) node {$125^\circ$};
-
-                                    \draw[shift={(60:1cm)},xshift=-15cm]
-                                    node [right,text width=8cm,rounded corners,fill=red!20,inner sep=1ex]
-                                    {
-                                    Angles $x,45^\circ, 70^\circ, 60^\circ$ and $120^\circ$ meet at a point. Therefore
-                                    $$x + 45^\circ + 70^\circ + 60^\circ + 125^\circ = 360^\circ$$
-                                    $$x + 300^\circ = 360^\circ$$ Subtract $300^\circ$ from both sides of equal signs.
-                                    $$x + 300^\circ - 300^\circ = 360^\circ - 300^\circ$$
-                                    $$x = 60^\circ$$
-                                    };
 
                                     
                                 \end{tikzpicture}
                             </latex-image>
                         </image>
+                      </statement>
+
+
+                      <solution>
+                            <p>
+                                Angles <m>x,45^\circ, 70^\circ, 60^\circ \text{and} $120^\circ</m> meet at a point. 
+
+                            </p>
+
+                            <p>
+                                Therefore:
+                            </p>
+
+                            <p>
+                               <me>
+                                x +45^\circ + 70^\circ + 60^\circ + $120^\circ = 360^\circ
+                               </me>
+                               
+                            </p>
+
+                            <p>
+                                <me>
+                                   x + 300^\circ = 360^\circ  
+                                </me>
+                                
+                               
+                            </p>
+
+                            <p>
+                                <me>
+                                   x + 300^\circ - 300^\circ = 360^\circ - 300^\circ  
+                                </me>
+                            </p>
+
+                            <p>
+                                <me>
+                                    x = 60^\circ
+                                </me>
+                                
+                            </p>
+
+                      </solution>
                     </example>
 
         </subsection>
+        <subsection xml:id="subsec-Angles-on-a-tranversal">
+        <title>Angles on a transversal</title>
+        
     
-        <subsection xml:id="subsec-Angles-on-a-transversal">
-    <title>Angles on a transversal.</title>
-    
-            <subsubsection xml:id="subsubsec-Alternate-angles">
-            <title>Alternate angles</title>
-            <p>
-                In the figure alongside, work out the values of alternate angles.
-            </p>
-
-            <image>
-                <shortdescription>alternate angles</shortdescription>
-                <latex-image>
-                    \begin{tikzpicture}
-                    \usetikzlibrary{quotes,angles}
-                        \draw(-2,0) coordinate(A) -- (-1,0) coordinate(B) -- (1,0)coordinate(C) -- (2,0) coordinate(D);
-                        \draw(-2,2) coordinate(E) -- (-1,0) coordinate(B) -- (0,-2) coordinate(F);
-                        \draw(0,2) coordinate(G) -- (1,0) coordinate(C) -- (2,-2) coordinate(H);
-
-                        \pic["$t$", draw,black, angle radius=.5cm] {angle=D--C--G};
-                        \pic["$s$", draw,black, angle radius=.4cm] {angle=G--C--A};
-                        \pic["$w$", draw,black, angle radius=.5cm] {angle=E--B--A};
-                        \pic["$117^\circ$", draw,black, angle radius=.6cm] {angle=D--B--E};
-                        \pic["$r$", draw,black, angle radius=.4cm] {angle=A--B--F};
-                        \pic["$q$", draw,black, angle radius=.5cm] {angle=F--B--D};
-                        \pic["$v$", draw,black, angle radius=.3cm] {angle=A--C--H};
-                        \pic["$t$", draw,black, angle radius=.4cm] {angle=H--C--D};  
-
-                        \draw[shift={(60:1cm)},xshift=-12cm]
-                        node [right,text width=8cm,rounded corners,fill=red!20,inner sep=1ex]
-                        {
-
-                        Angles marked  $v$ is alternate to  $117^\circ $. Therefore, angles marked $v = 117^\circ$
-                        Angles marked $q$ is on a straight line with $117^\circ$
-                        Therefore, angle marked $q = 180^\circ - 117^\circ$ 
-                        $$=63^\circ$$
-                        Angle marked $q$ is alternate to angle marked $s.$
-                        Angle marked $s = $ angle marked $q$
-                        $$=63^\circ$$
-
-                        };                
-
-                        
-
-
-
-
-                        
-                    \end{tikzpicture}
-                </latex-image>
-            </image>
-                
-            </subsubsection>
 
             <subsubsection xml:id="subsubsec-Corresponding-angles">
                 <title>Corresponding angles</title>
