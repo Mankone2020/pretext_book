@@ -86,6 +86,89 @@
 
         <subsection xml:id="subsec-Angles-in-a-straightline">
             <title>Angles in a straight line</title>
+
+
+               
+                <activity>
+                    <p>
+                        <em>What you need: a ruler and a protractor</em>
+                    </p>
+
+                    <p>
+                        <ol>
+                            <li>
+                                <p>
+                                    
+                                    
+                                         Draw a straight line <m>AB</m> and mark point <m>O</m> at the centre.
+                                
+
+
+                                       <image>
+                                        <shortdescription>line</shortdescription>
+                                          <latex-image>
+                                            \begin{tikzpicture}
+                                                \draw(-1,0) node[left]{$A$} -- (1,0) node[right]{$B$};
+                                                \draw(0,-.1) -- (0,.1) node[below]{$O$};
+                                            \end{tikzpicture}
+                                          </latex-image>
+                                        
+                                       </image>
+                                        
+                                    
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Draw two lines to make an angle with line <m>AB</m> at point <m>O</m> as shown in the diagram below.
+                                </p>
+                            </li>
+
+                            <li>
+                                <ol>
+                                    <li>
+                                        <p>
+                                            
+                                           Measure the angles you have drawn.
+                                
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p>
+                                            How do the angles relate to each other?
+                                        </p>
+                                    </li>
+                                </ol>
+                                
+                            </li>
+                        </ol>
+                    </p>
+
+                    
+                        <image>
+                            <shortdescription></shortdescription>
+                            <latex-image>
+                                \begin{tikzpicture}
+                                    \draw[blue](-1,0) coordinate(A) -- (0,0) coordinate(O) -- (1,0) coordinate(B);
+                                    \draw[blue](-.7,1) coordinate(C) -- (0,0) coordinate(O) -- (.7,1) coordinate(D);
+                                    \draw(-1,-.1) node[left]{$A$};
+                                    \draw(0,-.1) node{$O$};
+                                    \draw(1,-.1) node[right]{$B$};
+                                \end{tikzpicture}
+                            </latex-image>
+                            
+                        </image>
+
+                        <p>
+                            <em>Connect</em>
+                        </p>
+                        <p>
+                            Angles on a straight line add up to <m>180^\circ.</m> Any <em>two</em> angles that add up to <m>180^\circ</m> are <em>supplementary angles.</em>
+                        </p>
+                    
+                </activity> 
+
                 <activity>
                     <statement>
                         <p>
@@ -243,7 +326,7 @@
 
                       <solution>
                             <p>
-                                Angles <m>x,45^\circ, 70^\circ, 60^\circ \text{and} $120^\circ</m> meet at a point. 
+                                Angles <m>x,45^\circ, 70^\circ, 60^\circ \text{and } 120^\circ</m> meet at a point. 
 
                             </p>
 
@@ -586,7 +669,7 @@
 
         </subsection>
 
-        <subsection xml:id="subsec-Angles-in-a-parallelogram">
+       <subsection xml:id="subsec-Angles-in-a-parallelogram">
             <title>Angles in a parallelogram</title>
 
             <example>
@@ -609,27 +692,79 @@
                                     \pic["$z$", draw,-&gt;,black, angle radius=1cm] {angle=B--A--D};
                                     \pic["$108$", draw,-&gt;,black, angle radius=1cm] {angle=A--D--C};
                                     \pic["$x$", draw,-&gt;,black, angle radius=1cm] {angle=D--C--B};
-                                    \pic["$z$", draw,-&gt;,black, angle radius=1cm] {angle=C--B--A};
+                                    \pic["$y$", draw,-&gt;,black, angle radius=1cm] {angle=C--B--A};
 
-                                    \draw[shift={(60:0.5cm)},xshift=-8cm]
-                                    node [right,text width=6cm,rounded corners,fill=red!20,inner sep=1ex]
-                                    {Angles marked $z$ and $180^\circ$ are co-interior angles.Therefore:
-                                    Angle marked $z$$$z=180^\circ-108^\circ$$
-                                    $$z=72^\circ$$
-                                    Angles marked $x$ and $180^\circ$ are co-interior angles.Therefore:
-                                Angle marked $x$$$x=180^\circ-108^\circ$$
-                                $$x=72^\circ$$
-                                Angle marked $x$ and $y$ are co-interior angles.Therefore: 
-                                $$x+y=180$$
-                                    $$y=180-x$$
-                                    $$ y=180-72$$
-                                    $$y=108$$
-                                    };
+                                    
                                     \end{tikzpicture}
                             </latex-image>
                         </image>
+                    
+
+                    
 
                 </statement>
+
+                <solution>
+                    <p>
+                        Angles marked <m>z</m> and <m>180^\circ</m> are co-interior angles.
+                    </p>
+
+                    <p>
+                        Therefore:
+                    </p>
+                    <p>
+                        Angle marked <m>z = 180^\circ </m>
+                    </p>
+                    <p>
+                        <me>
+                            x=72^\circ
+                        </me>
+                        
+                    </p>
+                    <p>
+                        Angles marked <m>x</m> and <m>180^\circ</m> are co-interior angles.Therefore:
+                    </p>
+                    <p>
+                        <me>
+                            \text{Angle marked } x = 180^\circ-108^\circ
+                        </me>
+                        
+                    </p>
+                    <p>
+                        <me>
+                            x=72^\circ
+                        </me>
+                        
+                    </p>
+                    <p>
+                         Angle marked <m>x</m> and <m>y</m> are co-interior angles.Therefore:
+                    </p>
+                    <p>
+                        <me>
+                            x + y = 180^\circ
+                        </me>
+                        
+                    </p>
+                    <p>
+                        <me>
+                            y = 180^\circ - x
+                        </me>
+                        
+                    </p>
+                    <p>
+                        <me>
+                            y = 180^\circ - 72^\circ
+                        </me>
+                        
+                    </p>
+                    <p>
+                        <me>
+                             y = 108^\circ
+                        </me>
+                        
+                    </p>
+
+                </solution>
 
             </example>
         </subsection>
