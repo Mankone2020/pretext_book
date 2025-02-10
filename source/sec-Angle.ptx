@@ -57,7 +57,7 @@
             </definition>
 
 
-            <exercise label="angle-definition">
+            <!-- <exercise label="angle-definition">
                          <title>True/False</title>
                          <idx>definition of angles</idx>
                             <statement correct="yes">
@@ -81,7 +81,7 @@
                                 </p>
                             </hint>
                             
-                    </exercise>
+                    </exercise> -->
         </subsection>
 
         <subsection xml:id="subsec-Angles-in-a-straightline">
@@ -90,22 +90,21 @@
 
                
                 <activity>
+                
+                
                     <p>
                         <em>What you need: a ruler and a protractor</em>
                     </p>
-
+                
                     <p>
                         <ol>
                             <li>
                                 <p>
                                     
-                                    
-                                         Draw a straight line <m>AB</m> and mark point <m>O</m> at the centre.
-                                
+                                  Draw a straight line <m>AB</m> and mark point <m>O</m> at the centre.
 
-
-                                       <image>
-                                        <shortdescription>line</shortdescription>
+                                    <image>
+                                          <shortdescription>line</shortdescription>
                                           <latex-image>
                                             \begin{tikzpicture}
                                                 \draw(-1,0) node[left]{$A$} -- (1,0) node[right]{$B$};
@@ -113,7 +112,7 @@
                                             \end{tikzpicture}
                                           </latex-image>
                                         
-                                       </image>
+                                    </image>
                                         
                                     
                                 </p>
@@ -160,13 +159,13 @@
                             
                         </image>
 
-                        <p>
-                            <em>Connect</em>
-                        </p>
-                        <p>
+                    <p>
+                            <em>Learning point</em>
+                    </p>
+                    <p>
                             Angles on a straight line add up to <m>180^\circ.</m> Any <em>two</em> angles that add up to <m>180^\circ</m> are <em>supplementary angles.</em>
-                        </p>
-                    
+                    </p>
+                   
                 </activity> 
 
                 <activity>
@@ -197,20 +196,20 @@
                     
                         <solution>
                                         <p>
-                                            Angles on a straight line add upto <m>180</m>
+                                            Angles on a straight line add upto <m>180^\circ</m>
                                         </p>
                                         <p>
-                                            The angle <m>k</m> can be solved by adding <m>55+k+50</m>;
+                                            The angle <m>k</m> can be solved by adding <m>55^\circ+k+50^\circ</m>;
                                         </p>
                                         <p>
-                                            Equating <me>55+k+50=180</me>,we get;
+                                            Equating <me>55^\circ +k + 50^\circ =1 80^\circ</me>,we get;
                                         </p>
                                         <p><me>
-                                            k=180-105
+                                            k=180^\circ-105^\circ
                                             </me> 
                                         </p>
                                         <p><me>
-                                            \text{Therefore}, k=75
+                                            \text{Therefore}, k = 75^\circ
                                             </me>
                                         </p>
                         </solution>
@@ -223,6 +222,10 @@
                             <statement>
                                 <p>
                                     Angles at a point.
+                                </p>
+
+                                 <p>
+                                    1.Trace and cut out the fugure below.     
                                 </p>
                             
                                             <image width="50%">
@@ -238,12 +241,10 @@
                                                     \end{tikzpicture}
                                                 </latex-image>
                                             </image>
-                            </statement>
+                            
                                 
-                                <hint>
-                                        <p>
-                                            1.Trace and cut out the fugure below.     
-                                        </p>
+                            
+                                       
                                         <p>
                                             2.Use a protractor to measure the following angles:
                                         </p>
@@ -284,12 +285,13 @@
                                             Vertically opposite angles are equal.
                                         </p>
                                         <p>
-                                            Angle <m>a</m> =Angle <m>c</m> 
+                                            Angle <m>a</m> = Angle <m>c</m> 
                                         </p>
                                         <p>
-                                            Angle <m>b</m> =Angle <m>d</m> 
+                                            Angle <m>b</m> = Angle <m>d</m> 
                                         </p>
-                                </hint>  
+                            </statement>
+                              
                     </activity>
 
                     
@@ -336,7 +338,7 @@
 
                             <p>
                                <me>
-                                x +45^\circ + 70^\circ + 60^\circ + $120^\circ = 360^\circ
+                                x +45^\circ + 70^\circ + 60^\circ + 120^\circ = 360^\circ
                                </me>
                                
                             </p>
@@ -445,18 +447,23 @@
                         <m>5.</m> Share your findings with other learners in class.
                     </p>
                     <p>
-                        Learning point.
+                        <em>Learning point.</em>
                     </p>
 
                     <p>
-                        <em>Angles <m>r</m> and  <m>v</m> are corresponding angles. Corresponding angles are equal.</em>
+                        Angles <m>r</m> and  <m>v</m> are corresponding angles. Corresponding angles are equal.
                     </p>
                 </activity>
 
                 <example>
+                <statement>
                     <p>
                         Find the value of angle <m>k</m> in the figure below.
                     </p>
+                
+                
+                        
+                    
 
                     <image>
                         <shortdescription>Corresponding angles</shortdescription>
@@ -497,15 +504,7 @@
                                 \draw[black]                   (-2,0) -- (3,0);
                                 \draw[black,shift={(60:2cm)}] (-3,0) -- (2,0);
 
-                                \draw[shift={(60:-4cm)},yshift=1cm]
-                                node [right,text width=6cm,rounded corners,fill=white,inner sep=1ex]
-                                {
-                                $$\text{\color{red} Solution}.$$
-                                Corresponding angles are equal. Angle $k$ corresponds with $110^\circ$
-                                $$ \text{Angle  $k = 110^\circ$.}$$ 
-
-                                };
-
+                                
                                 \end{scope}
 
 
@@ -515,8 +514,19 @@
                         </latex-image>
                     </image>
 
-
-
+                    
+                </statement>
+                <solution>
+                    <p>
+                        Corresponding angles are equal.
+                    </p>
+                    <p>
+                        Angle <m>k</m> corresponds with <m>110^\circ.</m> 
+                    </p>
+                    <p>
+                        Angle <m>k = 110^\circ.</m> 
+                    </p>
+                </solution>
 
 
                 </example>
@@ -548,7 +558,7 @@
                                     \draw(120:0.4cm) node {$o$};
 
                                     \draw[fill=white] (0,0) -- (right:.4cm) arc (0:60:.4cm);
-                                    \draw(30:0.5cm) node {$p$};
+                                    \draw(30:0.6cm) node {$p$};
 
                                     \draw[fill=white] (0,0) -- (180:.5cm) arc (180:240:.5cm);
 
@@ -558,10 +568,10 @@
 
                                     \begin{scope}[shift={(60:2cm)}]
                                     \draw[fill=white] (0,0) -- (180:.4cm) arc (180:240:.4cm);
-                                    \draw (30:-0.5cm) node {$m$};
+                                    \draw (30:-0.6cm) node {$m$};
 
                                     \draw[fill=white] (0,0) -- (240:.35cm) arc (240:360:.35cm);
-                                    \draw (-60:0.4cm) node {$n$};
+                                    \draw (-60:0.6cm) node {$n$};
 
                                     \draw[fill=white] (0,0) -- (60:.35cm) arc (60:180:.35cm);
 
@@ -607,6 +617,7 @@
                     </activity>
 
                     <example>
+                      <statement>
 
                         <p>
                             What is the value of angle <m>n</m> in the figure below?
@@ -620,7 +631,7 @@
                                     
 
                                     \draw[fill=white] (0,0) -- (right:.4cm) arc (0:60:.4cm);
-                                    \draw(30:0.6cm) node {$50^\circ$};
+                                    \draw(30:0.8cm) node {$50^\circ$};
 
                                     \draw[fill=white] (0,0) -- (180:.5cm) arc (180:240:.5cm);
 
@@ -633,7 +644,7 @@
                                     
 
                                     \draw[fill=white] (0,0) -- (240:.35cm) arc (240:360:.35cm);
-                                    \draw (-60:0.45cm) node {$n$};
+                                    \draw (-60:0.5cm) node {$n$};
 
                                     \draw[fill=white] (0,0) -- (60:.35cm) arc (60:180:.35cm);
 
@@ -649,19 +660,35 @@
 
                                     \end{scope}
 
-                                    \draw[shift={(60:-4cm)},yshift=1cm]
-                                    node [right,text width=6cm,rounded corners,fill=white,inner sep=1ex]
-                                    {
-                                    $$\text{\color{orange} Solution}.$$
-                                    Co-interior angles add uptp $180^\circ$. 
-                                    $$n + 50^\circ = 180^\circ$$
-                                    $$ n + 50^\circ - 50^\circ = 180^\circ - 50^\circ$$ 
-                                    $$n = 130^\circ $$
-
-                                    };
+                                    
                             \end{tikzpicture}
                             </latex-image>
                         </image>
+                      </statement>
+
+                      <solution>
+                        <p>
+                            Co-interior angles add up to <m>180^\circ</m>
+                        </p>
+                        <p>
+                            <me>
+                                n + 50^\circ = 180^\circ
+                            </me>
+                            
+                        </p>
+                        <p>
+                            <me>
+                                n + 50^\circ - 50^\circ = 180^\circ - 50^\circ
+                            </me>
+                            
+                        </p>
+                        <p>
+                            <me>
+                                n = 130^\circ
+                            </me>
+                            
+                        </p>
+                      </solution>
 
                     </example>
 
@@ -897,8 +924,12 @@
                 <title>Interior angles of a polygon</title>
 
             <subsubsection xml:id="subsubsec-Triangle">
+                <title>Triangle</title>
 
                 <activity>
+                  
+                
+                
 
                     <statement>
                         <p>
