@@ -11,26 +11,11 @@
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />
 
-
-
-
-
-
-
     <!-- Include chapters -->
-    <xi:include href="./ch-Geometry.ptx" />
+    <xi:include href="geometry/ch-geometry.ptx" />
 
-
-
-
-
-
-    
-
-         <!-- Include backmatter -->
+    <!-- Include backmatter -->
     <xi:include href="./backmatter.ptx" />
-
-    
 
   </book>
 </pretext>

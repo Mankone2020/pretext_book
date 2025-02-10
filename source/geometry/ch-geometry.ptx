@@ -8,10 +8,10 @@
   </introduction>
 
   <!-- include sections -->
-  <xi:include href="sec-Angle.ptx" />
+  <xi:include href="sections/sec-angle.ptx" />
 
   <!-- include sections -->
-  <xi:include href="sec-Geometrical-constructions.ptx" />
+  <xi:include href="sections/sec-geometrical-constructions.ptx" />
 
   
 
